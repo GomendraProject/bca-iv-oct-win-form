@@ -1,0 +1,17 @@
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\bin\Debug\net7.0-windows\bca-iv-oct.exe
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\bin\Debug\net7.0-windows\bca-iv-oct.deps.json
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\bin\Debug\net7.0-windows\bca-iv-oct.runtimeconfig.json
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\bin\Debug\net7.0-windows\bca-iv-oct.dll
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\bin\Debug\net7.0-windows\bca-iv-oct.pdb
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\bca_iv_oct.Form1.resources
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\bca-iv-oct.csproj.GenerateResource.cache
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\bca-iv-oct.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\bca-iv-oct.AssemblyInfoInputs.cache
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\bca-iv-oct.AssemblyInfo.cs
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\bca-iv-oct.csproj.CoreCompileInputs.cache
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\bca-iv-oct.dll
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\refint\bca-iv-oct.dll
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\bca-iv-oct.pdb
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\bca-iv-oct.genruntimeconfig.cache
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\ref\bca-iv-oct.dll
+D:\Projects\College\Gomendra\NetCore\bca-iv-oct\obj\Debug\net7.0-windows\bca_iv_oct.Dashboard.resources

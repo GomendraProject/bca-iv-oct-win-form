@@ -1,3 +1,7 @@
+using bca_iv_oct.Models;
+using bca_iv_oct.Providers;
+using Dapper;
+
 namespace bca_iv_oct
 {
     public partial class Form1 : Form
@@ -23,17 +27,34 @@ namespace bca_iv_oct
             var username = usernameElm.Text;
             var password = passwordElm.Text;
 
-            if(username == "abc" && password == "hola") 
+            using(var conn = DbConnectionProvider.GetDbConnection())
             {
-                // Show dashboard
-                var dashboardForm = new Dashboard();
-                this.Hide();
-                dashboardForm.ShowDialog();
-                this.Show();
-            }
-            else
-            {
-                MessageBox.Show("Invalid username / password");
+                // Get user based on Username
+
+                var query = @"
+select * from dbo.[User] WHERE Username = @username
+";
+                var user = conn.QueryFirstOrDefault<User>(query, new {
+                    username = username
+                });
+
+                if(user == null) {
+                    MessageBox.Show("Invalid username");
+                    return;
+                }
+
+                if (user.Password == password)
+                {
+                    // Show dashboard
+                    var dashboardForm = new Dashboard();
+                    this.Hide();
+                    dashboardForm.ShowDialog();
+                    this.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid username / password");
+                }
             }
         }
     }
